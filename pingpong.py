@@ -90,11 +90,11 @@ BALL = c.create_oval(WIDTH / 2 - BALL_RADIUS / 2,
                      HEIGHT / 2 + BALL_RADIUS / 2, fill="white")
 
 
-LEFT_PAD = c.create_line(PAD_W / 2, 0, PAD_W / 2, PAD_H, width=PAD_W, fill="yellow")
+LEFT_PAD = c.create_line(PAD_W / 2, 0, PAD_W / 2, PAD_H, width=PAD_W, fill="white")
 
 
 RIGHT_PAD = c.create_line(WIDTH - PAD_W / 2, 0, WIDTH - PAD_W / 2,
-                          PAD_H, width=PAD_W, fill="yellow")
+                          PAD_H, width=PAD_W, fill="white")
 
 p_1_text = c.create_text(WIDTH - WIDTH / 6, PAD_H / 4,
                          text=PLAYER_1_SCORE,
